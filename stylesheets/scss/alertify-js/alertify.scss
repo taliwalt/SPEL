@@ -1,0 +1,114 @@
+@import "includes/_core";
+
+$sans-serif-font-stack: 'museo_sans', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$rounded-font-stack: 'museo_sans_rounded', Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+$player-1-color:        rgb(0,181,173);
+$player-2-color:        rgb(245,206,0);
+$base-color:            rgb(46,55,77);
+$success-color:         rgba(23,170,86, 1);
+$danger-color:          rgba(216,70,73, 1);
+$background-color:      rgb(255,253,250);
+$accent-color:          rgb(255,249,235);
+$ok-color:              #AEDEF4;
+$cancel-color:          #F27474;
+
+$box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+$padding-base: 12px;
+$no-padding: 0em;
+$message-padding: 1.5em 2em;
+$message-margin: 0.5em;
+//$success-color: rgba(76, 175, 80, .9);
+//$danger-color: rgba(244, 67, 54, .8);
+$text-color: rgba(46,55,77, .8);
+
+.alertify {
+  .alertify-dialog, .alertify-alert {
+    .alertify-inner {
+      padding: $no-padding;
+      background: $background-color;
+      box-shadow: 0 2px 4px -1px rgba(0,0,0,.14), 0 4px 5px 0 rgba(0,0,0,.098), 0 1px 10px 0 rgba(0,0,0,.084);
+    }
+  }
+  .alertify-message {
+    padding: $padding-base;
+    margin: 0 0 .5em 0;
+    text-align: left;
+    color: $base-color;
+  }
+}
+
+.alertify-text {
+  border: 1px solid #CCC;
+  padding: $padding-base;
+}
+
+nav.alertify-buttons{
+    padding: 0em;
+}
+
+.alertify-button {
+
+  background: transparent;
+  box-sizing: border-box;
+  //color: rgba(0,0,0,0.87);
+  color:#fff;
+  position: relative;
+  outline: 0;
+  border: 0;
+  display: inline-block;
+  align-items: center;
+  //padding: 0 6px;
+  padding: 0em;
+  //margin: 6px 8px;
+  margin: 0em;
+  line-height: 36px;
+  min-height: 36px;
+  white-space: nowrap;
+  min-width: 88px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  //border-radius: 2px;
+  border-radius: 0px;
+  width:50%;
+  &:hover, &:active {
+    background-color: rgba(0,0,0,.05);
+  }
+  &.alertify-button-cancel{
+      background-color: $danger-color;
+      color: #fff;
+      padding: .5em 1em;
+      margin: 0em;
+  }
+  &.alertify-button-ok{
+      background-color: $success-color;
+      color: #fff;
+      padding: .5em 1em;
+      margin: 0;
+  }
+
+}
+
+.alertify-log {
+
+  float: right;
+  clear: right;
+  background: rgba(0, 0, 0, .8);
+  padding: $padding-base $padding-base * 2;
+  color: #fff;
+  box-shadow: $box-shadow;
+
+  &.alertify-log-error {
+    background: $danger-color;
+  }
+
+  &.alertify-log-success {
+    background: $success-color;
+  }
+
+}

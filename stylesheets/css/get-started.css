@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../../fonts/museosans_100.woff2") format("woff2"), url("../../fonts/museosans_100.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../../fonts/museosans_300.woff2") format("woff2"), url("../../fonts/museosans_300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../../fonts/museosans_500.woff2") format("woff2"), url("../../fonts/museosans_500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans';
+  src: url("../../fonts/museosans_700.woff2") format("woff2"), url("../../fonts/museosans_700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans_rounded';
+  src: url("../../fonts/museosansrounded_100.woff2") format("woff2"), url("../../fonts/museosansrounded_100.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans_rounded';
+  src: url("../../fonts/museosansrounded_300.woff2") format("woff2"), url("../../fonts/museosansrounded_300.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans_rounded';
+  src: url("../../fonts/museosansrounded_500.woff2") format("woff2"), url("../../fonts/museosansrounded_500.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'museo_sans_rounded';
+  src: url("../../fonts/museosansrounded_700.woff2") format("woff2"), url("../../fonts/museosansrounded_700.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+/*
+$background:  rgb(255,253,250);   //soapstone
+$main:        rgb(46,55,77);      //licorice
+$alt:         rgb(84,61,111);     //honey-flower
+$player-1:    rgb(84,186,128);    //emerald
+$player-2:    rgb(245,206,0);     //supernova
+$success:     rgb(23,170,86);      //pigment-green
+$danger:      rgb(216,70,73);     //mahogany
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/semantic-ui\/_overrides\.scss}line{font-family:\00003110}}
+.player-1-color {
+  color: #37b67f;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/semantic-ui\/_overrides\.scss}line{font-family:\00003114}}
+.bg-player-1 {
+  background: #37b67f !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/semantic-ui\/_overrides\.scss}line{font-family:\00003118}}
+.player-2-color {
+  color: #f6c300;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/semantic-ui\/_overrides\.scss}line{font-family:\00003122}}
+.bg-player-2 {
+  background: #f6c300 !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\000032}}
+.grid.full-height {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\000038}}
+.grid.full-height .right.aligned.column.dimmable {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000313}}
+.grid.full-height .right.aligned.column.dimmable .two.column.grid {
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000317}}
+.grid.full-height .right.aligned.column.dimmable .two.column.grid .column {
+  padding-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000321}}
+.grid.full-height .right.aligned.column.dimmable .two.column.grid .column .button {
+  margin-right: 0;
+  border-radius: 0.28571429rem 0 0 0.28571429rem;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000331}}
+.grid.full-height .left.aligned.column.dimmable {
+  margin: 0;
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000336}}
+.grid.full-height .left.aligned.column.dimmable .two.column.grid {
+  padding: 0;
+  margin: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000341}}
+.grid.full-height .left.aligned.column.dimmable .two.column.grid .column {
+  padding-left: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000345}}
+.grid.full-height .left.aligned.column.dimmable .two.column.grid .column .button {
+  margin-left: 0;
+  border-radius: 0 0.28571429rem 0.28571429rem 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000354}}
+.grid.full-height .row.visuallyhidden {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000357}}
+.grid.full-height .row.visuallyhidden center.aligned.eight.wide.column {
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000363}}
+.ui[class*="middle aligned"].grid .column:not(.row) {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  vertical-align: middle;
+  -webkit-align-self: center !important;
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000375}}
+.right.aligned.column.dimmable.dimmed {
+  height: 100vh !important;
+  background-color: rgba(55, 182, 127, 0.75);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000378}}
+.right.aligned.column.dimmable.dimmed .blurring.dimmer {
+  height: 100vh !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000381}}
+.right.aligned.column.dimmable.dimmed .player-1.button {
+  visibility: hidden;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000386}}
+.left.aligned.column.dimmable.dimmed {
+  height: 100vh !important;
+  background-color: rgba(246, 195, 0, 0.75);
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000389}}
+.left.aligned.column.dimmable.dimmed .blurring.dimmer {
+  height: 100vh !important;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/TaliWalt\/Projects\/Semantic\/stylesheets\/scss\/get-started\.scss}line{font-family:\0000392}}
+.left.aligned.column.dimmable.dimmed .player-2.button {
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=get-started.css.map */

@@ -1,0 +1,33 @@
+@mixin sans($weight){
+  font-family:  $sans-serif-font-stack;
+  font-weight:  $weight;
+}
+@mixin rounded($weight){
+  font-family:  $rounded-font-stack;
+  font-weight:  $weight;
+}
+
+.rounded100{
+  @include rounded(100);
+}
+.rounded300{
+  @include rounded(300);
+}
+.rounded500{
+  @include rounded(500);
+}
+.rounded700{
+  @include rounded(700);
+}
+.sans100{
+  @include sans(100);
+}
+.sans300{
+  @include sans(300);
+}
+.sans500{
+  @include sans(500);
+}
+.sans700{
+  @include sans(700);
+}

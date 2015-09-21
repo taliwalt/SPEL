@@ -1,0 +1,51 @@
+.color__gradient {
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.1) 100%); }
+
+.color-main {
+  color: #2e374d; }
+
+.bg-name {
+  background: #2e374d; }
+
+.color-background {
+  color: #fffdfa; }
+
+.bg-name {
+  background: #fffdfa; }
+
+.color-alt {
+  color: #543d6f; }
+
+.bg-name {
+  background: #543d6f; }
+
+.color-player-1 {
+  color: #54ba80; }
+
+.bg-name {
+  background: #54ba80; }
+
+.color-player-2 {
+  color: #f5ce00; }
+
+.bg-name {
+  background: #f5ce00; }
+
+.color-success {
+  color: #17aa56; }
+
+.bg-name {
+  background: #17aa56; }
+
+.color-danger {
+  color: #d84649; }
+
+.bg-name {
+  background: #d84649; }
+
+.u-state-shade {
+  transition: background-color .125s ease; }
+  .u-state-shade:hover {
+    background-color: rgba(255, 255, 255, 0.2); }
+  .u-state-shade:active {
+    background-color: rgba(0, 0, 0, 0.2); }
